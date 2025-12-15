@@ -1,6 +1,6 @@
 import React from 'react';
 import { Printer } from 'lucide-react';
-import { SectionTitle, SubSectionTitle, Paragraph, Callout, List, DataTable, PageBreak } from './components/ReportUI';
+import { SectionTitle, SubSectionTitle, Paragraph, Callout, List, PageBreak } from './components/ReportUI';
 import { PillarSection } from './components/PillarSection';
 import { pillars } from './data/reportContent';
 
