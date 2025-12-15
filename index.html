@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estratégia Nacional para o Desporto Escolar 2026-2036</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Custom Print Styles */
+      @media print {
+        @page {
+          size: A4;
+          margin: 15mm 15mm 15mm 15mm;
+        }
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          background-color: white !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-break-before {
+          page-break-before: always;
+        }
+        .print-break-inside-avoid {
+          page-break-inside: avoid;
+        }
+        /* Ensure shadows and backgrounds don't look weird in print */
+        .shadow-xl, .shadow-lg, .shadow-md {
+          box-shadow: none !important;
+        }
+        /* Expand container to full width */
+        .max-w-4xl {
+          max-width: 100% !important;
+        }
+        .my-8 {
+          margin-top: 0 !important;
+          margin-bottom: 0 !important;
+        }
+        .p-8 {
+          padding: 0 !important;
+        }
+      }
+
+      /* Screen specific styles for the paper look */
+      body {
+        background-color: #f3f4f6; /* gray-100 */
+      }
+      .font-serif {
+        font-family: 'Merriweather', serif;
+      }
+      .font-sans {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
